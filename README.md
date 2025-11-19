@@ -36,11 +36,15 @@ PORT=5000
 NODE_ENV=development
 ```
 
+## Setup frontend
+
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
+
+## Setup backend
 
 ```bash
 cd backend
@@ -48,7 +52,7 @@ npm install
 npm run dev
 ```
 
-##NOTE
--Without valid MongoDB + Cloudinary credentials, the app won’t run locally
--Full functionality is available on the deployed version
+## NOTE
+- Without valid MongoDB + Cloudinary credentials, the app won’t run locally.
+- Full functionality is available on the deployed version.
 
