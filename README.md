@@ -36,7 +36,7 @@ PORT=5001
 NODE_ENV=development
 ```
 
-## Setup frontend
+## Run frontend
 
 ```bash
 cd frontend
@@ -44,7 +44,7 @@ npm install
 npm run dev
 ```
 
-## Setup backend
+## Run backend
 
 ```bash
 cd backend
