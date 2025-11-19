@@ -34,6 +34,7 @@ CLOUDINARY_API_KEY=your_cloudinary_key_here
 CLOUDINARY_API_SECRET=your_cloudinary_secret_here
 PORT=5000
 NODE_ENV=development
+```env
 
 ```bash
 cd frontend
