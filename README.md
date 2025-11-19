@@ -35,4 +35,15 @@ CLOUDINARY_API_SECRET=your_cloudinary_secret_here
 PORT=5000
 NODE_ENV=development
 
+##  Frontend Setup
+
+```
+MONGODB_URI=your_mongo_uri_here
+JWT_SECRET=your_jwt_secret_here
+CLOUDINARY_CLOUD_NAME=your_cloudinary_name_here
+CLOUDINARY_API_KEY=your_cloudinary_key_here
+CLOUDINARY_API_SECRET=your_cloudinary_secret_here
+PORT=5000
+NODE_ENV=development
+
 
