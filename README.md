@@ -34,17 +34,19 @@ CLOUDINARY_API_KEY=your_cloudinary_key_here
 CLOUDINARY_API_SECRET=your_cloudinary_secret_here
 PORT=5000
 NODE_ENV=development
-```env
+```
 
 ```bash
 cd frontend
 npm install
 npm run dev
+```
 
 ```bash
 cd backend
 npm install
 npm run dev
+```
 
 ##NOTE
 -Without valid MongoDB + Cloudinary credentials, the app won’t run locally
