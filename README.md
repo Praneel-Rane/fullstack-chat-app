@@ -35,15 +35,20 @@ CLOUDINARY_API_SECRET=your_cloudinary_secret_here
 PORT=5000
 NODE_ENV=development
 
-##  Frontend Setup
+## 🔧 Setup and Run Locally (Optional)
 
-```
-MONGODB_URI=your_mongo_uri_here
-JWT_SECRET=your_jwt_secret_here
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name_here
-CLOUDINARY_API_KEY=your_cloudinary_key_here
-CLOUDINARY_API_SECRET=your_cloudinary_secret_here
-PORT=5000
-NODE_ENV=development
+> Requires your own MongoDB + Cloudinary credentials in `.env` file.
 
+```bash
+# Clone the project
+
+# Enter project folder and install dependencies for frontend
+cd frontend
+npm install
+npm run dev 
+
+# Open new terminal and start backend
+cd ../backend
+npm install
+npm run dev 
 
